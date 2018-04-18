@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CCTools_Example' do
+  pod 'CCTools', :path => '../'
+
+  target 'CCTools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
