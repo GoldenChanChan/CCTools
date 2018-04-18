@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35D0794E2087137A00403746 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D079502087137A00403746 /* FMDB.framework */; };
+		35D0794F2087137A00403746 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D079512087137A00403746 /* MBProgressHUD.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,8 +41,10 @@
 /* Begin PBXFileReference section */
 		102BC7E0E90FEC86F41F8C8E /* Pods_CCTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A31C3E300B162CFEE0C0DE2 /* Pods-CCTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCTools_Example/Pods-CCTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2EA7FD31B0608386B3663836 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3F33108997314F69650AD5AB /* CCTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CCTools.podspec; path = ../CCTools.podspec; sourceTree = "<group>"; };
+		2EA7FD31B0608386B3663836 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		35D079502087137A00403746 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D079512087137A00403746 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F33108997314F69650AD5AB /* CCTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CCTools.podspec; path = ../CCTools.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CCTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +66,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6E7767EA8F03C639EBFCC1A0 /* Pods_CCTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77FCD384D2DC55CB5155563E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		77FCD384D2DC55CB5155563E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2C83546C04FE95F0E9D1AE0 /* Pods-CCTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCTools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCTools_Tests/Pods-CCTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F0CD8F607B31586BC00838F5 /* Pods-CCTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCTools_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCTools_Tests/Pods-CCTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D0794E2087137A00403746 /* FMDB.framework in Frameworks */,
+				35D0794F2087137A00403746 /* MBProgressHUD.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +125,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35D079502087137A00403746 /* FMDB.framework */,
+				35D079512087137A00403746 /* MBProgressHUD.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -338,10 +346,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CCTools_Example/Pods-CCTools_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CCTools/CCTools.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

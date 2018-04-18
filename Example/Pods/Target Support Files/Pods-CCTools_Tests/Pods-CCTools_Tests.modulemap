@@ -1,0 +1,6 @@
+framework module Pods_CCTools_Tests {
+  umbrella header "Pods-CCTools_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

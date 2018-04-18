@@ -1,0 +1,30 @@
+{
+  "name": "CCTools",
+  "version": "0.1.0",
+  "summary": "A short description of CCTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/GoldenChanChan/CCTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chencheng2046@126.com": "chencheng2046@126.com"
+  },
+  "source": {
+    "git": "https://github.com/GoldenChanChan/CCTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CCTools/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+
+    ],
+    "MBProgressHUD": [
+
+    ]
+  }
+}

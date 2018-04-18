@@ -1,0 +1,6 @@
+framework module Pods_CCTools_Example {
+  umbrella header "Pods-CCTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
