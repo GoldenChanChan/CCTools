@@ -2,8 +2,6 @@ use_frameworks!
 
 target 'CCTools_Example' do
   pod 'CCTools', :path => '../'
-  pod 'FMDB'
-  pod 'MBProgressHUD'
 
   target 'CCTools_Tests' do
     inherit! :search_paths

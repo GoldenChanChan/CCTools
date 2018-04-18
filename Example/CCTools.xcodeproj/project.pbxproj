@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35D0794E2087137A00403746 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D079502087137A00403746 /* FMDB.framework */; };
-		35D0794F2087137A00403746 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D079512087137A00403746 /* MBProgressHUD.framework */; };
+		35D0795620872C0800403746 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D0795720872C0800403746 /* FMDB.framework */; };
+		35D0795820872EA600403746 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D0795920872EA600403746 /* MBProgressHUD.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,8 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AF9F544431F6D735C98BD579 /* Pods_CCTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7767EA8F03C639EBFCC1A0 /* Pods_CCTools_Tests.framework */; };
 		D6579A4A7B6528DC7D4F9AD9 /* Pods_CCTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 102BC7E0E90FEC86F41F8C8E /* Pods_CCTools_Example.framework */; };
+		E8AEDEEAFAD4CDC7FD9AC950 /* Pods_CCTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DD621A33E1E4A3E9079D1D /* Pods_CCTools_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06DD621A33E1E4A3E9079D1D /* Pods_CCTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		102BC7E0E90FEC86F41F8C8E /* Pods_CCTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A31C3E300B162CFEE0C0DE2 /* Pods-CCTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCTools_Example/Pods-CCTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2EA7FD31B0608386B3663836 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		35D079502087137A00403746 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35D079512087137A00403746 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D0795720872C0800403746 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D0795920872EA600403746 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F33108997314F69650AD5AB /* CCTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CCTools.podspec; path = ../CCTools.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CCTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +65,6 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E7767EA8F03C639EBFCC1A0 /* Pods_CCTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77FCD384D2DC55CB5155563E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D0794E2087137A00403746 /* FMDB.framework in Frameworks */,
-				35D0794F2087137A00403746 /* MBProgressHUD.framework in Frameworks */,
+				35D0795820872EA600403746 /* MBProgressHUD.framework in Frameworks */,
+				35D0795620872C0800403746 /* FMDB.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -94,7 +94,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				AF9F544431F6D735C98BD579 /* Pods_CCTools_Tests.framework in Frameworks */,
+				E8AEDEEAFAD4CDC7FD9AC950 /* Pods_CCTools_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,14 +125,14 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				35D079502087137A00403746 /* FMDB.framework */,
-				35D079512087137A00403746 /* MBProgressHUD.framework */,
+				35D0795920872EA600403746 /* MBProgressHUD.framework */,
+				35D0795720872C0800403746 /* FMDB.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				102BC7E0E90FEC86F41F8C8E /* Pods_CCTools_Example.framework */,
-				6E7767EA8F03C639EBFCC1A0 /* Pods_CCTools_Tests.framework */,
+				06DD621A33E1E4A3E9079D1D /* Pods_CCTools_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -551,6 +551,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CCTools/CCTools-Prefix.pch";
 				INFOPLIST_FILE = "CCTools/CCTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -566,6 +567,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CCTools/CCTools-Prefix.pch";
 				INFOPLIST_FILE = "CCTools/CCTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
